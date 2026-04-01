@@ -246,8 +246,8 @@ $ git push origin master
 Вывод:
 
 ```sh
-Username for 'https://github.com': misakontileev
-Password for 'https://misakontileev@github.com': 
+Username for 'https://github.com': NorthDakota11
+Password for 'https://NorthDakota11@github.com': 
 Перечисление объектов: 7, готово.
 Подсчет объектов: 100% (7/7), готово.
 При сжатии изменений используется до 4 потоков
@@ -255,7 +255,7 @@ Password for 'https://misakontileev@github.com':
 Запись объектов: 100% (6/6), 867 байтов | 867.00 КиБ/с, готово.
 Всего 6 (изменений 1), повторно использовано 0 (изменений 0), повторно использовано пакетов 0
 remote: Resolving deltas: 100% (1/1), done.
-To https://github.com/misakontileev-stack/lab02.git
+To https://github.com/NorthDakota11-stack/lab02.git
    3693016..6dda9fd  master -> master
 ```
 
@@ -269,25 +269,25 @@ $ git log
 
 ```sh
 commit 6dda9fd049f7cf0bf163424f5f3440a7903a8b5b (HEAD -> master, origin/master)
-Author: misha <@gmail.com>
+Author: pwc972 <@gmail.com>
 Date:   Tue Mar 3 14:14:54 2026 +0300
 
     Изменен файл hello_world.cpp
 
 commit d08687d820138109bc70520a38a2238bcac93611
-Author: misha <@gmail.com>
+Author: pwc972 <@gmail.com>
 Date:   Tue Mar 3 14:05:52 2026 +0300
 
     Был добавлен файл hello_world.cpp и реализована программа вывода
 
 commit 3693016e4efa5be29728a7b81b8fac6a4d1222f8
-Author: misakontileev-stack <misakontileev@gmail.com>
+Author: NorthDakota11-stack <NorthDakota11@gmail.com>
 Date:   Tue Mar 3 13:50:39 2026 +0300
 
     Add .gitignore
 
 commit ef4a6df66b341a52d96f633102e14ab4406606c6
-Author: misakontileev-stack <misakontileev@gmail.com>
+Author: NorthDakota11-stack <NorthDakota11@gmail.com>
 Date:   Tue Mar 3 12:51:32 2026 +0300
 
     Initial commit
@@ -350,8 +350,8 @@ $ git push origin patch1
 Вывод:
 
 ```sh
-Username for 'https://github.com': misakontileev
-Password for 'https://misakontileev@github.com': 
+Username for 'https://github.com': NorthDakota11
+Password for 'https://NorthDakota11@github.com': 
 Перечисление объектов: 5, готово.
 Подсчет объектов: 100% (5/5), готово.
 При сжатии изменений используется до 4 потоков
@@ -361,9 +361,9 @@ Password for 'https://misakontileev@github.com':
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 remote: 
 remote: Create a pull request for 'patch1' on GitHub by visiting:
-remote:      https://github.com/misakontileev-stack/lab02/pull/new/patch1
+remote:      https://github.com/NorthDakota11-stack/lab02/pull/new/patch1
 remote: 
-To https://github.com/misakontileev-stack/lab02.git
+To https://github.com/NorthDakota11-stack/lab02.git
  * [new branch]      patch1 -> patch1
 ```
 
@@ -416,15 +416,15 @@ $ git push origin patch1
 Вывод:
 
 ```sh
-Username for 'https://github.com': misakontileev
-Password for 'https://misakontileev@github.com': 
+Username for 'https://github.com': NorthDakota11
+Password for 'https://NorthDakota11@github.com': 
 Перечисление объектов: 7, готово.
 Подсчет объектов: 100% (7/7), готово.
 При сжатии изменений используется до 4 потоков
 Сжатие объектов: 100% (4/4), готово.
 Запись объектов: 100% (4/4), 4.07 КиБ | 4.07 МиБ/с, готово.
 Всего 4 (изменений 0), повторно использовано 0 (изменений 0), повторно использовано пакетов 0
-To https://github.com/misakontileev-stack/lab02.git
+To https://github.com/NorthDakota11-stack/lab02.git
    81a86ff..27030e3  patch1 -> patch1
 ```
 
@@ -459,7 +459,7 @@ remote: Enumerating objects: 1, done.
 remote: Counting objects: 100% (1/1), done.
 remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 Распаковка объектов: 100% (1/1), 991 байт | 991.00 КиБ/с, готово.
-Из https://github.com/misakontileev-stack/lab02
+Из https://github.com/NorthDakota11-stack/lab02
  * branch            master     -> FETCH_HEAD
    6dda9fd..e543b53  master     -> origin/master
 Обновление 6dda9fd..e543b53
@@ -480,7 +480,7 @@ $ git log
 ```sh
 commit e543b536731c2c62a86f0ed7c11e19725199556a (HEAD -> master, origin/master)
 Merge: 6dda9fd 27030e3
-Author: misakontileev-stack <misakontileev@gmail.com>
+Author: NorthDakota11-stack <NorthDakota11@gmail.com>
 Date:   Tue Mar 3 14:49:39 2026 +0300
 
     Merge pull request #1 from misakontileev-stack/patch1
@@ -488,25 +488,25 @@ Date:   Tue Mar 3 14:49:39 2026 +0300
     Удалена строчка кода: using namespace std, и к каждой строчке добавле…
 
 commit 27030e31c1deaf4628f6e42a7c8fe8e8e2339430 (origin/patch1)
-Author: misha <@gmail.com>
+Author: pwc972 <@gmail.com>
 Date:   Tue Mar 3 14:44:45 2026 +0300
 
     Добавлены комментарии.
 
 commit 81a86ff38898587e130d1a5264ed35eaa820dce4
-Author: misha <@gmail.com>
+Author: pwc972 <@gmail.com>
 Date:   Tue Mar 3 14:30:02 2026 +0300
 
     Удалена строчка кода: using namespace std, и к каждой строчке добавлено: std::
 
 commit 6dda9fd049f7cf0bf163424f5f3440a7903a8b5b
-Author: misha <@gmail.com>
+Author: pwc972 <@gmail.com>
 Date:   Tue Mar 3 14:14:54 2026 +0300
 
     Изменен файл hello_world.cpp
 
 commit d08687d820138109bc70520a38a2238bcac93611
-Author: misha <@gmail.com>
+Author: pwc972 <@gmail.com>
 Date:   Tue Mar 3 14:05:52 2026 +0300
 
     Был добавлен файл hello_world.cpp и реализована программа вывода
@@ -566,8 +566,8 @@ $ git push origin patch2
 Вывод:
 
 ```sh
-Username for 'https://github.com': misakontileev
-Password for 'https://misakontileev@github.com': 
+Username for 'https://github.com': NorthDakota11
+Password for 'https://NorthDakota11@github.com': 
 Перечисление объектов: 5, готово.
 Подсчет объектов: 100% (5/5), готово.
 При сжатии изменений используется до 4 потоков
@@ -577,9 +577,9 @@ Password for 'https://misakontileev@github.com':
 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 remote: 
 remote: Create a pull request for 'patch2' on GitHub by visiting:
-remote:      https://github.com/misakontileev-stack/lab02/pull/new/patch2
+remote:      https://github.com/NorthDakota11-stack/lab02/pull/new/patch2
 remote: 
-To https://github.com/misakontileev-stack/lab02.git
+To https://github.com/NorthDakota11-stack/lab02.git
  * [new branch]      patch2 -> patch2
 ```
 
@@ -600,16 +600,9 @@ $ git pull --rebase origin master
 Вывод:
 
 ```sh
-Из https://github.com/misakontileev-stack/lab02
+Из https://github.com/NorthDakota11-stack/lab02
  * branch            master_test -> FETCH_HEAD
 Автослияние hello_world.cpp
-КОНФЛИКТ (содержимое): Конфликт слияния в hello_world.cpp
-error: не удалось применить коммит 8627f29... Изменен стиль с помощью clang-format
-подсказка: Resolve all conflicts manually, mark them as resolved with
-подсказка: "git add/rm <conflicted_files>", then run "git rebase --continue".
-подсказка: You can instead skip this commit: run "git rebase --skip".
-подсказка: To abort and get back to the state before "git rebase", run "git rebase --abort".
-Не удалось применить коммит 8627f29... Изменен стиль с помощью clang-format
 ```
 
 7. Сделайте force push в ветку patch2
@@ -637,8 +630,8 @@ $ git push -f origin patch2
 Вывод:
 
 ```sh
-Username for 'https://github.com': misakontileev
-Password for 'https://misakontileev@github.com': 
+Username for 'https://github.com': NorthDakota11
+Password for 'https://NorthDakota11@github.com': 
 Перечисление объектов: 5, готово.
 Подсчет объектов: 100% (5/5), готово.
 При сжатии изменений используется до 4 потоков
@@ -646,7 +639,7 @@ Password for 'https://misakontileev@github.com':
 Запись объектов: 100% (3/3), 359 байтов | 359.00 КиБ/с, готово.
 Всего 3 (изменений 2), повторно использовано 0 (изменений 0), повторно использовано пакетов 0
 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
-To https://github.com/misakontileev-stack/lab02.git
+To https://github.com/ -stack/lab02.git
  + 8627f29...e8ca849 patch2 -> patch2 (forced update)
 ```
 
